@@ -13,7 +13,6 @@
 
 # Digital Clocks
 - Created 2 different designs for Digital clocks, showing the timing in hour, minute, seconds
-- Also showing Day and Date on one clock
   
 ![Screenshot 1](https://github.com/ketaki-karambelkar/Web-Applications/assets/156402972/982faf6e-d852-4b43-822c-ef34d5837d4d)
 
@@ -26,5 +25,6 @@
 
 # Tic Tac Toe Game
 - Functional Tic Tac Toe game
+
 ![Screenshot 1](https://github.com/ketaki-karambelkar/Web-Applications/assets/156402972/19d6ef90-f82f-4f6f-ae7b-efe8cd5a492c)
 
