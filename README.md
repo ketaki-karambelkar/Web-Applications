@@ -16,7 +16,7 @@
   
 ![Screenshot 1](https://github.com/ketaki-karambelkar/Web-Applications/assets/156402972/982faf6e-d852-4b43-822c-ef34d5837d4d)
 
-![Screenshot 1](https://github.com/ketaki-karambelkar/Web-Applications/assets/156402972/398653a0-7277-4a32-9118-3aa9c6920f0d)
+![Screenshot 2](https://github.com/ketaki-karambelkar/Web-Applications/assets/156402972/7b21050a-0b0f-40a2-9fc7-09f8d6400e14)
 
 # Calculator
 - Completely functional Calculator for performing operations like addtion, subtraction, multiplication, division
