@@ -10,21 +10,16 @@ let year = document.getElementById("year");
 
 setInterval(() => {
     let currentTime = new Date();
+    let amPm = currentTime.getHours()>=12?'PM':'AM';
+    let cTimeHours = currentTime.getHours()%12;
+    cTimeHours = (cTimeHours===0?12:cTimeHours);
     
-    hrs.innerHTML = (currentTime.getHours()<10?"0":"") + currentTime.getHours();
+    hrs.innerHTML = (cTimeHours<10?"0":"") + cTimeHours;
     min.innerHTML = (currentTime.getMinutes()<10?"0":"") + currentTime.getMinutes();
     sec.innerHTML = (currentTime.getSeconds()<10?"0":"") + currentTime.getSeconds();
+    period.innerHTML= amPm;
     date.innerHTML = currentTime.getDate();
     year.innerHTML = currentTime.getFullYear();
     day.innerHTML = currentTime.toLocaleString("default", {weekday: "long"})+" ,";
     month.innerHTML = currentTime.toLocaleString("default", {month: "long"});
-
-    if(currentTime.getHours() >= 12){
-        period.innerHTML= 'PM';
-        hrs.innerHTML = ((currentTime.getHours()-12)===12?"12":((currentTime.getHours()-12)<10?"0":"")+(currentTime.getHours()-12));
-    }
 }, 1000)
-
-
-
-
